@@ -1,0 +1,198 @@
+ul {
+  margin: 20px 0 0 0;
+  padding: 0; 
+}
+
+body {
+  text-align: center;
+  margin: 5% auto;
+  font-family: "Arsenal", sans-serif; 
+  height: 632px;
+  background-image: url("https://static2.srcdn.com/wordpress/wp-content/uploads/2016/11/Harry-Potter-cast.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+font-family: 'Shadows Into Light', cursive;
+  font-size: 2em;
+  display: inline; 
+}
+
+p {
+font-family: 'Laila', serif;
+
+  font-size: 1;
+  display: inline; 
+}
+
+.change-font {
+  font-family: 'Shadows Into Light', cursive;
+  margin-bottom: 10%;
+  font-size: 2;
+  display: inline; 
+}
+
+.bold {
+  font-weight: 700; 
+}
+
+.hide {
+  display: none; 
+}
+
+/* QUIZ START */
+.start-image {
+  width: 70%;
+ padding-top: 25px;
+  padding-right: 25px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  
+}
+
+.quiz-start, .quiz-end {
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+  background: #FFF;
+  outline: 10px solid #FFF;
+  border: 2px dash #1C1711; border: 2px solid #1C1711;
+}
+
+.start, .restart {
+  height: 40px; 
+  width: 100px; 
+  margin: 2px auto; 
+  font-size: 25px;
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: bold;
+  background: #00b200; 
+  border: 2px solid #00b200; 
+  border-radius: 10px;
+  display: block; 
+  color: #000;
+
+}
+
+/* QUESTION VIEW */
+.questions {
+  width: 50%;
+  margin: 20px auto;
+  padding: 20px;
+  background: #FFF;
+  outline: 10px solid #FFF;
+  border: 2px solid #1C1711; 
+}
+
+.dislayed-question li {
+  display: inline-block;
+    background: #0000FF;
+  border: 1px solid #1C1711;
+  width: 44%;
+  margin: 5px 10px;
+  padding: 10px 0; 
+  color: #FFF;
+
+}
+
+.question-header {
+  margin: 0 0 20px 0; 
+font-family: 'Laila', serif;
+  font-size: 20px;
+}
+
+.question-number {
+  border-radius: 50%;
+  color: #0000FF;
+  padding: 5px 20px;
+  margin-right: 10px;
+  font-family: 'Laila', serif;
+  font-size: 3em;
+  display: inline; 
+}
+
+.questions li.chosen {
+  background: #FF0000;
+  color: #FFF; 
+}
+
+.questions li.correct-answer {
+  background: #00b200; 
+  color: #FFF; 
+}
+
+.score {
+  width: 50%;
+  margin: 10px auto;
+  padding: 20px;
+  background: #0000FF;
+  border: 2px solid #1C1711; 
+}
+
+.remaining-questions {
+  width: 50%;
+  color: #FFF;
+  margin: 10px auto;
+  padding: 0 20px;
+  background: #0000FF;
+  font-family: 'Laila', serif;
+  font-size: 20px;
+  border: 2px solid #1C1711; 
+}
+
+.correct, .incorrect {
+  color: #FFF;
+  font-size: 35px;
+  padding: 5px;
+}
+
+.next-question {
+  width: 20%;
+  color: #FFF;
+  margin: 10px auto;
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  background: #000000; 
+}
+
+.feedback {
+  color: #FFF;
+  font-size: 20px;   
+}
+
+/* QUIZ END */
+.fa {
+  color: #1C1711;
+  padding: 5px;
+
+}
+
+.fa:hover {
+  color: #4964BB; 
+}
+
+.social {
+  margin-top: 70px; 
+}
+
+.restart {
+  margin-top: 50px; 
+}
+
+@media only screen and (max-width: 376px) {
+  .quiz-start, .remaining-questions, .questions, .score {
+    width: 80%; 
+  }
+
+  .dislayed-question li {
+    width: 100%;
+    margin: 5px auto; 
+  }
+
+  .next-question {
+    width: 100%; 
+  } 
+}
