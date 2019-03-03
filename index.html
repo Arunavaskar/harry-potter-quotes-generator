@@ -1,0 +1,59 @@
+<!DOCTYPE HTML> 
+<html>
+<head>
+    <title>Harry Potter Quiz App</title>
+    <script type="text/javascript" src="https://use.fontawesome.com/e656f4498e.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale-1">
+  <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Laila" rel="stylesheet">
+</head>
+
+	<!-- QUIZ START BEGIN HERE -->
+	<section class="quiz-start">
+		<h1>How Well Do You Know Harry Potter Quiz?</h1>
+    
+		<img src="https://mondrian.mashable.com/uploads%252Fcard%252Fimage%252F760683%252F2117d274-d2cf-46b9-b60c-698d65361438.jpg%252F950x534__filters%253Aquality%252890%2529.jpg?signature=-7R3bLC1xTVhrjc86pBeYAogXFY=&source=https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com" class="start-image" alt="Illustration of Harry Potter with 'Only True Fans Can Complete This Quiz' Words">
+
+    <div><p>Hey, Muggle! You are a self-proclaimed Harry Potter fanatic since you have read all the books, seen all the movies, perhaps attended midnight release parties fully decked out in your Hogwarts robes with homemade wand in hand. But can you say you’re a wizarding world expert? </p></div>
+          <div><h2 class="change-font">Let’s find out! Wands up!</h2>></div>
+        <button type="submit" class="start">START</button>
+    </section>
+    <!-- QUIZ START END HERE -->
+
+    <!-- QUESTION VIEW BEGIN HERE -->
+    <section class="question-view hide">
+        <section class="remaining-questions"></section>
+        <img class="question-image" alt="">
+        <section class="questions">
+            <div class="dislayed-question">
+                <p class="question-number"></p>
+                <h1 class="question-header"></h1>
+                <ul class="choices"></ul>
+                <button type="submit" class="next-question hide">NEXT</button>
+            </div>
+        </section>
+        <section class="score hide">
+            <section class="feedback"></section>
+        </section>
+    </section>
+    <!--  QUESTION VIEW END HERE -->
+
+    <!-- QUIZ PAGE BEGIN HERE-->
+    <section class="quiz-end hide">
+        <h1 class="score-display"></h1>
+        <button type="submit" class="restart">RESTART</button>
+        <div class="social">
+                <a href="https://twitter.com/techmariah?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @techmariah</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        <p>Created by Mariah Rucker</p>
+    </section>
+    <!-- QUIZ PAGE END HERE-->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" 
+        integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" 
+        crossorigin="anonymous"></script>
+    <script src="app.js" type="text/javascript"></script>
+    
+</body>
+</html>
