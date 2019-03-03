@@ -9,4 +9,4 @@
 - Front-End: HTML, CSS, JavaScript
 - Library: jQuery
 
-**Code Playground:** [Quiz App Live Sample](https://codepen.io/techmariah/pen/YBbgLa) 
+**Code Playground:** [Quotes Generator Live Sample](https://codepen.io/techmariah/pen/YBbgLa) 
